@@ -1,0 +1,3 @@
+[submodule "front-end"]
+    path = front-end
+    url = https://github.com/Senku150/cpit-405-final-lab-front-end.git
