@@ -1,0 +1,13 @@
+FROM mariadb:latest
+
+RUN apt-get update && apt-get install -y mariadb-client 
+
+#to run this docker file I used
+# docker build -t custom-mariadb:latest .
+# docker run --detach --name custom-mariadb --env MARIADB_ROOT_PASSWORD=pass -p 3306:3306 custom-mariadb:latest
+
+# to acces its bash I used
+#docker exec -it custom-mariadb bash
+
+# to login to mariadb client I used this
+# mariadb -u root -p
